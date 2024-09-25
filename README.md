@@ -30,6 +30,27 @@ The main form includes the following components:
 ## GUI Layout
 ![123](https://github.com/user-attachments/assets/9cee7f24-7ba2-4ec1-99d2-1289b61160df)
 
+## SQL
+![Screenshot 2024-09-25 104124](https://github.com/user-attachments/assets/c89add01-3e05-4b56-96c4-98c450411fc8)
+
+Table:
+CREATE TABLE [dbo].[ItemManagement] (
+
+    [ItName]        NVARCHAR (100)  NOT NULL,
+
+    [ItCategory]    NVARCHAR (100)  NOT NULL,
+
+    [ItQuantity]    INT             NOT NULL,
+
+    [ItPrice]       DECIMAL (10, 2) NOT NULL,
+
+    [ItDescription] NVARCHAR (250)  NOT NULL,
+
+    PRIMARY KEY CLUSTERED ([ItName] ASC)
+
+);
+ 
+
 ## Getting Started
 1. Clone this repository:
    ```bash
