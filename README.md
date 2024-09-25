@@ -27,6 +27,9 @@ The main form includes the following components:
 - Visual Studio 2019 or later
 - Windows OS
 
+## GUI Layout
+![123](https://github.com/user-attachments/assets/9cee7f24-7ba2-4ec1-99d2-1289b61160df)
+
 ## Getting Started
 1. Clone this repository:
    ```bash
